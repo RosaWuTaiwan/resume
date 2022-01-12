@@ -15,7 +15,7 @@ img{max-width:100%}
 .biographyStyle{display:none;opacity:0;position:fixed;z-index:-99}
 .flexbox{display:flex;flex-wrap:nowrap}
 .edge{width:1200px;position:relative;margin:0 auto;overflow:hidden}
-#introduction{padding:80px;background:#669bc9;background:-moz-linear-gradient(top,rgba(102,155,201,1) 0,rgba(167,197,206,1) 14%,rgba(255,255,255,1) 87%);background:-webkit-linear-gradient(top,rgba(102,155,201,1) 0,rgba(167,197,206,1) 14%,rgba(255,255,255,1) 87%);background:linear-gradient(to bottom,rgba(102,155,201,.5) 0,rgba(167,197,206,.1) 4%,rgba(255,255,255,1) 87%)}
+#introduction{padding:80px;border-top: 3px solid #0c4a60;}
 #introduction .left_box{float:left;width:250px}
 #introduction .right_box{float:right;width:calc(100% - 250px - 50px)}
 #introduction .left_box .openme{align-items:center;justify-content:space-evenly}
