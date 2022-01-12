@@ -99,6 +99,12 @@ $('.biographybtn').click(function () {
 $('.contactme').click(function () {
     $(".contact").toggle();
 })
+$('.relatedworkbtn').click(function () {
+    $(".relatedworkbtn").siblings('li').toggle();
+})
+$('.relatedworkbtn2').click(function () {
+    $(".relatedworkbtn2").siblings('li').toggle();
+})
 
 function clipboard() {
     var TocopyText = document.getElementById("coppy");
