@@ -106,6 +106,9 @@ b.highlight{color:#f53d04}
 .contact p b{font-weight:700;color:#f53d04}
 .contact p span{float:right;cursor:pointer;color:#eb8a8a}
 .contact p span:hover{color:#5a5a5a}
+.qrcode{margin-top:30px;text-align:center}
+.qrcode p{text-align:center}
+.qrcode img{width:100px}
 @media screen and (max-width:1366px){
 .edge{width:900px}
 }
@@ -129,6 +132,7 @@ b.highlight{color:#f53d04}
 .biographyStyle .biographybtn-close{right:50px;top:40px}
 #introduction .left_box .openme{width:200px;margin:0 auto}
 .contact{margin:20px 0}
+.qrcode{display:none}
 }
 @media screen and (max-width:640px){
 #introduction .left_box{width:100%;margin-bottom:20px;overflow:hidden}
