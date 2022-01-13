@@ -28,7 +28,7 @@ img{max-width:100%}
 #introduction .right_box .step1 h2{font-size:14px;color:#7a7a7a}
 #introduction .right_box .step2{margin-bottom:20px}
 #introduction .right_box .step2 li{float:left;width:50%;margin:10px 0}
-#introduction .right_box .step2 h3,#introduction .right_box .step3>h3{font-weight:700;font-size:16px}
+#introduction .right_box .step2 h3,#introduction .right_box .step3>h3,#introduction .right_box .step4>h3{font-weight:700;font-size:16px}
 #introduction .right_box .step2 p,#introduction .right_box .step4 h2{color:#7a7a7a}
 #introduction .right_box .step2 p b{display:inline-block;color:#f53d04;position:relative}
 #introduction .right_box .step3{margin-bottom:40px}
