@@ -1,0 +1,191 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,i,img,input,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,textarea,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;font-weight:400;vertical-align:baseline;font-family:"å¾®è»Ÿæ­£é»‘é«”","Lucida Grande",Arial,"Arial Narrow";font-size:14px;line-height:180%}
+html{margin:0;padding:0;border:0;font-size:100%;font:inherit;font-weight:400;vertical-align:baseline;font-family:"å¾®è»Ÿæ­£é»‘é«”","Lucida Grande",Arial,"Arial Narrow"}
+body{position:relative;color:#000}
+.fancybox-bg{background:#fff}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+li,ol,ul{list-style:none;overflow:hidden}
+blockquote,q{quotes:none}
+blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+td,th{vertical-align:middle}
+a{outline:0;color:#000;text-decoration:none;-webkit-backface-visibility:hidden}
+a:focus{outline:0}
+input:focus,select:focus,textarea:focus{outline:-webkit-focus-ring-color auto 0}
+img{max-width:100%}
+.biographyStyle{display:none;opacity:0;position:fixed;z-index:-99}
+.flexbox{display:flex;flex-wrap:nowrap}
+.edge{width:1200px;position:relative;margin:0 auto;overflow:hidden}
+#introduction{padding:80px;border-top:3px solid #0c4a60}
+#introduction .left_box{float:left;width:250px}
+#introduction .right_box{float:right;width:calc(100% - 250px - 50px)}
+#introduction .left_box .openme{align-items:center;justify-content:space-evenly}
+#introduction .left_box .openme li a{display:block;border:1px solid #000;border-radius:15px;padding:0 15px;cursor:pointer;transition:linear .2s}
+#introduction .left_box .openme li a:hover{background-color:#0c4a60;color:#fff}
+#introduction .left_box .selfie{margin-bottom:20px}
+#introduction .left_box .selfie .me{width:220px;height:220px;border-radius:50%;background:#000;margin:0 auto;background-image:url(images/1.jpg);background-size:100% auto;background-repeat:no-repeat;background-position:50% 50%}
+#introduction .right_box .step1{margin-bottom:40px}
+#introduction .right_box .step1 h1{font-size:24px;font-weight:500}
+#introduction .right_box .step1 h2{font-size:14px;color:#7a7a7a}
+#introduction .right_box .step2{margin-bottom:20px}
+#introduction .right_box .step2 li{float:left;width:50%;margin:10px 0}
+#introduction .right_box .step2 h3,#introduction .right_box .step3>h3,#introduction .right_box .step4>h3{font-weight:700;font-size:16px}
+#introduction .right_box .step2 p,#introduction .right_box .step4 h2{color:#7a7a7a}
+#introduction .right_box .step2 p b{display:inline-block;color:#f53d04;position:relative}
+#introduction .right_box .step3{margin-bottom:40px}
+#introduction .right_box .step3>h3~ul{margin-top:20px}
+#introduction .right_box .step3>ul>li{border:1px solid #9d9d9d;padding:15px 25px;border-radius:15px}
+#introduction .right_box .step3 ul li h2{font-size:16px;font-weight:700}
+#introduction .right_box .step3 ul li{margin-bottom:10px}
+#introduction .right_box .step3 li h3{font-size:12px;color:#7a7a7a;font-style:oblique}
+#introduction .right_box .step3 li p{font-size:14px}
+#introduction .right_box .step3 li ol li{width:100%;float:none}
+#introduction .right_box .step3 li ol b{background:#878787;color:#fff;border-radius:5px;padding:2px 8px;font-size:12px;transition:linear .2s;cursor:pointer;margin-top:15px;display:inline-block}
+#introduction .right_box .step3 li ol b:hover{background:#2a717c;color:#ebebeb}
+#introduction .right_box .step3 li ol li a{color:#8b8b8b;font-size:12px}
+#introduction .right_box .step3 .jobcontent{margin:10px 0;padding:15px;background:#c0eaf9;border-radius:15px}
+#introduction .right_box .step3 .jobcontent .jobcontent_title b{font-weight:700}
+#introduction .right_box .step3 .jobcontent ul li{margin:0}
+.tabUl3 .tabUl3topic1 .wireframeType .wireframe{width:200px}
+.tabUl3 .tabUl3topic1 .wireframeType .wireframe h5{font-size:14px}
+.tabUl3 .tabUl3topic1 .wireframeType .wireframe .setbg{padding:10px}
+.tabUl3 .tabUl3topic1 .wireframeType .wireframe .setbg img{display:block}
+.mySwiper{margin-top:20px}
+.mySwiper .swiper-slide{position:relative}
+.mySwiper .swiper-slide a{display:block;position:absolute;bottom:0;left:0;top:0;width:calc(100% - 15px);background:-moz-linear-gradient(top,rgba(0,0,0,.65) 0,rgba(0,0,0,0) 100%);background:-webkit-linear-gradient(top,rgba(0,0,0,.65) 0,rgba(0,0,0,0) 100%);background:linear-gradient(to bottom,rgba(0,0,0,.65) 0,rgba(0,0,0,0) 60px);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0 );color:#fff;height:100%;line-height:50px;padding-left:15px;font-size:18px;font-weight:700}
+.swiper-button-next,.swiper-button-prev{color:#fff}
+#profolio .edge{width:900px}
+#profolio nav{position:relative}
+#profolio nav:after{content:'';position:absolute;display:block;width:100%;height:1px;background-color:#d1d1d1;bottom:0;left:0}
+#profolio nav ul li{float:left;width:calc(100% / 3);text-align:center}
+#profolio nav ul li a{font-size:18px;font-weight:800;display:block;padding:10px;margin:5px;border:1px solid #d1d1d1;margin-bottom:0;border-bottom:0;border-top-right-radius:15px;border-top-left-radius:15px;transform:translateY(22px);transition:all linear .2s;position:relative;z-index:1;color:#0c4a60}
+#profolio nav ul li a b{display:block;font-size:12px;line-height:120%;color: #52b8db;}
+#profolio nav ul li.active a{transform:translateY(0);box-shadow:1px 2px 5px #7c7c7c}
+#profolio nav ul li.active a:after{content:'';display:block;width:100%;height:1px;background:#fff;position:absolute;bottom:0;left:0}
+#profolio .tab_content{width:calc(100% - 20px);margin:0 auto;overflow:hidden;padding-bottom:50px}
+#profolio .tab_content .topic{margin:30px auto}
+#profolio .tab_content .topic h4{font-size:25px;margin-bottom:30px}
+#profolio .tab_content .topic h4+*{margin-bottom:100px;overflow:hidden}
+.tabUl a{display:block;position:relative}
+.tabUl .img{text-align:center}
+.tabUl .watchit{position:absolute;left:0;display:block;width:50px;height:50px;text-align:center;line-height:52px;background:#ffffff9c;border-radius:8px;box-shadow:0 0 5px #898989;top:5px;transition:linear .2s;opacity:0;animation-name:watchit;animation-duration:.5s;animation-iteration-count:infinite;animation-direction:alternate-reverse}
+@keyframes watchit{
+0%{box-shadow:0 0 5px #898989}
+100%{box-shadow:0 0 10px #000}
+}
+.tabUl a:hover .watchit{opacity:1;left:10px}
+.watchit i{font-size:20px;color:#838383}
+.tabUl1 .topic1 img{width:500px}
+.tabUl1 .topic3 img{width:700px}
+.tabUl .wireframeType{overflow:hidden}
+.tabUl .wireframeType .wireframe{float:left;width:calc(50% - 10px)}
+.tabUl1 .topic4 .wireframeType .wireframe:last-child{float:right}
+.tabUl .wireframeType .wireframe h5{font-size:20px;font-weight:700}
+.tabUl1 .topic4 .wireframeType .wireframe .setbg,.tabUl2 .topic .wireframeType .wireframe:last-child .setbg,.tabUl3 .topic6 .talkthisType .talkthis,.tabUl3 .wireframeType .wireframe .setbg{padding:20px;border:1px solid #d7d7d7;border-radius:15px}
+.tabUl1 .topic4b p a{font-size:16px;border:1px solid #305b6a;display:inline-block;padding:1px 10px;border-radius:10px}
+#right-nav1,#right-nav2{display:none}
+#right-nav2{position:fixed;right:30px;bottom:30px;width:50px;height:50px;border-radius:10px;border:1px solid #a5a5a5;cursor:pointer;background:#fff}
+#right-nav2 a{display:block;text-align:center;line-height:130%;margin-top:8px}
+#right-nav1{bottom:90px;position:fixed;right:35px}
+#right-nav1 a i{font-size:40px;color:#606060}
+.tabUl2 .topic .wireframeType .wireframe{width:250px}
+.tabUl2 .topic .wireframeType .wireframe:last-child{margin-left:100px;width:400px}
+.tabUl3 .twoside{margin:10px 0 30px}
+.tabUl3 .twoside li{text-align:center;border:1px solid #abdff1;border-radius:10px;padding:10px 30px;margin:10px 0;margin-right:10px}
+.tabUl3 .twoside li h5{font-weight:700;font-size:16px}
+.tabUl3 .twoside li p{text-align:left}
+b.highlight{color:#f53d04}
+.tabUl3 .twoside li ul li{border:0;text-align:left;padding:0;margin:0;border-radius:0}
+.tabUl3 .wireframeType .wireframe{margin-bottom:30px}
+.tabUl3 .wireframeType .wireframe:nth-child(even){margin-left:20px}
+#profolio .tabUl3 .topic6 .talkthisType{margin-bottom:0}
+.tabUl3 .topic6 .talkthisType .wireframe{float:none;width:100%}
+#profolio .tab_content .iiframe{position:relative}
+#profolio .tab_content .iiframe .bg{position:absolute;top:0;left:0;width:100%;height:100%;background:#000000b0}
+#profolio .tab_content .iiframe img{display:block}
+#profolio .tab_content .iiframe a{position:absolute;display:block;width:100px;height:40px;background:#fff;top:calc(50% - 20px);left:calc(50% - 50px);border-radius:40px;text-align:center;line-height:40px;font-size:20px;filter:drop-shadow(2px 4px 6px #000);transition:linear .2s}
+#profolio .tab_content .iiframe a:hover{filter:drop-shadow(2px 4px 0 #000)}
+.fancybox-slide--iframe .fancybox-content{width:1200px;height:700px;max-width:80%;max-height:90%;margin:0}
+.catalogUl li{cursor:pointer}
+.catalogUl li:hover{font-weight:700}
+.biographyStyle.open{position:fixed;top:0;left:0;width:100%;height:100vh;opacity:1;z-index:99;background:#ffffffc9}
+.biographyStyle .content{position:absolute;width:640px;max-height:calc(100% - 300px);height:auto;left:calc(50% - 350px);top:100px;overflow:auto;background:#fff;border-radius:25px;border:1px solid #b5b5b5;padding:30px}
+.biographyStyle .biographybtn-close{display:block;position:absolute;width:40px;height:40px;text-align:center;line-height:40px;border-radius:40px;background:#000;color:#fff;right:calc(50% - 370px);top:90px;font-size:24px;cursor:pointer}
+.contact{margin:20px 15px}
+.contact p{color:#838383;overflow:hidden}
+.contact p>i{color:#6fb9bd;display:inline-block;width:22px}
+.contact p b{font-weight:700;color:#f53d04}
+.contact p span{float:right;cursor:pointer;color:#eb8a8a}
+.contact p span:hover{color:#5a5a5a}
+.qrcode{margin-top:30px;text-align:center}
+.qrcode p{text-align:center}
+.qrcode img{width:100px}
+@media screen and (max-width:1366px){
+.edge{width:900px}
+}
+@media screen and (max-width:1280px){
+#profolio .edge,.edge{width:calc(100% - 40px)}
+#profolio .tab_content .topic h4{font-size:20px}
+#profolio nav ul li a,.tabUl .wireframeType .wireframe h5{font-size:16px}
+#introduction{padding:60px 0}
+.tabUl2 .topic .wireframeType .wireframe:last-child{width:calc(100% - 70px - 250px);margin-left:70px}
+}
+@media screen and (max-width:768px){
+#introduction .left_box{width:200px}
+#introduction .left_box .selfie .me{width:200px;height:200px}
+#introduction .right_box{width:calc(100% - 200px - 30px)}
+#introduction .left_box .openme li{margin-right:10px}
+#profolio nav ul{display:flex;flex-wrap:nowrap;align-items:flex-end}
+#profolio nav ul li a{padding:7px;margin:2px;font-size:14px}
+#profolio nav ul li.active a{transform:translateY(2px)}
+.tabUl .watchit{opacity:1;left:10px;top:10px;width:40px;height:40px;line-height:42px}
+.biographyStyle .content{width:calc(100% - 180px);left:60px;top:50px;max-height:calc(100% - 200px)}
+.biographyStyle .biographybtn-close{right:50px;top:40px}
+#introduction .left_box .openme{width:200px;margin:0 auto}
+.contact{margin:20px 0}
+.qrcode{display:none}
+}
+@media screen and (max-width:640px){
+#introduction .left_box{width:100%;margin-bottom:20px;overflow:hidden}
+#introduction .right_box{width:100%}
+#introduction .right_box .step1 h1{font-size:20px}
+.tabUl2 .topic .wireframeType .wireframe:last-child{width:calc(100% - 30px - 250px);margin-left:30px}
+.tabUl3 .twoside{display:block}
+.tabUl3 .twoside li{width:calc(50% - 4px - 42px);display:inline-block;padding:10px 20px;margin:0;vertical-align:top}
+.tabUl3 .twoside li.last{width:calc(100% - 42px);margin-top:5px}
+.tabUl3 .twoside li ul li{width:100%}
+.contact{width:230px;margin:15px auto}
+#introduction .left_box .openme{width:300px}
+}
+@media screen and (max-width:480px){
+#introduction .right_box .step2 li,#introduction .right_box .step3 ul li{width:100%}
+#introduction .right_box .step3>ul>li{border-bottom:1px solid #e1e1e1;padding:10px 15px;margin-bottom:10px;padding-bottom:10px;width:calc(100% - 32px)}
+#introduction .right_box .step3{margin-bottom:30px}
+#profolio nav .edge{width:100%}
+#profolio .edge,.edge{width:calc(100% - 20px)}
+#profolio .edge{width:calc(100% - 10px)}
+#profolio .tab_content .topic h4{font-size:18px;margin-bottom:20px}
+.tabUl1 .topic4 .wireframeType .wireframe .setbg,.tabUl2 .topic .wireframeType .wireframe:last-child .setbg,.tabUl3 .tabUl3topic1 .wireframeType .wireframe .setbg,.tabUl3 .topic6 .talkthisType .talkthis,.tabUl3 .wireframeType .wireframe .setbg{padding:3px;border-radius:10px}
+.tabUl2 .topic .wireframeType .wireframe{width:100%;text-align:center}
+.tabUl2 .topic .wireframeType .wireframe:last-child{width:100%;margin-left:0;margin-top:20px}
+.tabUl3 .twoside li{width:calc(50% - 4px - 22px);padding:10px 10px}
+.tabUl3 .twoside li.last{width:calc(100% - 22px)}
+.tabUl3 .twoside li ul li{width:100%}
+#profolio .tab_content .iiframe a{font-size:16px}
+#profolio .tab_content .topic h4+*{margin-bottom:50px}
+.biographyStyle .content{width:calc(100% - 100px);left:20px}
+.biographyStyle .biographybtn-close{right:10px}
+#introduction{padding:40px 0}
+.contact p span{float:none;margin-left:10px}
+#introduction .right_box .step3 li ol li{margin:0}
+#right-nav1{right:20px;bottom:75px}
+#right-nav1 a i{font-size:30px}
+#right-nav2{right:15px;width:40px;height:40px}
+#right-nav2 a{margin-top:5px;font-size:12px}
+.tabUl .wireframeType .wireframe{width:100%;margin-bottom:30px}
+.tabUl3 .wireframeType .wireframe:nth-child(even){margin-left:0}
+.tabUl3 .tabUl3topic1 .wireframeType .wireframe{width:150px;margin-right:10px}
+#introduction .left_box .selfie .me{width:150px;height:150px}
+.mySwiper .swiper-slide .inside{padding-top:50px}
+.mySwiper .swiper-slide a{background:-moz-linear-gradient(top,rgba(0,0,0,.65) 0,rgba(0,0,0,0) 100%);background:-webkit-linear-gradient(top,rgba(0,0,0,.65) 0,rgba(0,0,0,0) 100%);background:linear-gradient(to bottom,rgb(5 80 96 / 65%) 0,rgba(0,0,0,0) 80px);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0 )}
+#profolio nav ul li{width: calc(100% / 2);}
+}
