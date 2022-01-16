@@ -8,7 +8,7 @@ $(window).scroll(function () {
     }
 });
 
-$('#right-nav2').click(function () {
+$('.right-nav2').click(function () {
     var top = $('#profolio').offset().top;
     $('body,html').stop().animate({ scrollTop: top }, 800);
     return false;
