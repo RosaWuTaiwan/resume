@@ -120,6 +120,24 @@ b.highlight{color:#f53d04}
 .qrcode{margin-top:30px;text-align:center}
 .qrcode p{text-align:center}
 .qrcode img{width:100px}
+.requirement{}
+.requirement >li{
+    float: left;
+    width: calc(50% - 22px);
+    margin: 0 10px 0 0;
+    border: 1px solid #a3a3a3;
+    border-radius: 10px;
+}
+.requirement .sttile{
+    text-align: center;
+    background: #d5d5d5;
+    padding: 5px 10px;
+}
+.requirement .scontnet{}
+.requirement .scontnet li{
+    border-top: 1px solid #d5d5d5;
+    padding: 5px 15px;
+}
 @media screen and (max-width:1366px){
 .edge{width:900px}
 }
@@ -188,4 +206,5 @@ b.highlight{color:#f53d04}
 .mySwiper .swiper-slide .inside{padding-top:50px}
 .mySwiper .swiper-slide a{background:-moz-linear-gradient(top,rgba(0,0,0,.65) 0,rgba(0,0,0,0) 100%);background:-webkit-linear-gradient(top,rgba(0,0,0,.65) 0,rgba(0,0,0,0) 100%);background:linear-gradient(to bottom,rgb(5 80 96 / 65%) 0,rgba(0,0,0,0) 80px);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0 )}
 #profolio nav ul li{width: calc(100% / 2);}
+.requirement >li{width: calc(100% - 2px);margin:  0 0 10px 0;}
 }
