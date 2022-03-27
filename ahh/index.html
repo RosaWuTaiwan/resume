@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/2c6dd29bd1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="vue-layout-index.css">
+    <title>門市活動頁測試</title>
+</head>
+
+<body>
+    <div id='app'>
+        <div class="event-inside">
+            <div class="content">
+                <div class="self-introduction">
+                    <div class="midwidth">
+                        <div class="mainCover">
+                            <p><img src="1.jpg" alt=""></p>
+                        </div>
+                        <div class="shortInfo">
+                            <h1>吳孟蘋</h1>
+                            <h2>Robin</h2>
+                            <ul>
+                                <li><p>燦坤實業股份有限公司 網頁前端設計師</p></li>
+                                <li><p>1992.05.24</p></li>
+                                <li><p>現居台北市</p></li>
+                                <li><p>xingever524@gmail.com</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-bar">
+                    <div class="midwidth">
+                        <ul class="chooseBar">
+                            <li @click="flash"><router-link :to="{path:'/Resume'}">Resume</router-link></li>
+                            <li @click="flash"><router-link :to="{path:'/UXUI'}">UXUI SideProject</router-link></li>
+                            <li @click="flash"><router-link :to="{path:'/WEB'}">WEB Works</router-link></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contents">
+                    <router-view></router-view>
+                </div>
+            </div>
+        </div>
+    </div>
+    <template id="thisisResume">
+        <div>
+            <div class="midwidth">
+                <div class="partOfthese">
+                    <ul>
+                        <li>
+                            <div class="bbox">
+                                
+                                <div class="indside">
+                                    <h3>Work expereinces</h3>
+                                    <ul>
+                                        <li>
+                                            <h4 class="company"><span><i class="fa-solid fa-briefcase"></i></span>燦坤實業股份有限公司</h4>
+                                            <h5>2019~ 網頁前端設計師/在職中</h5>
+                                            <ol>
+                                                <li>實體通路、電商檔期活動頁</li>
+                                                <li>EDM 格式維護</li>
+                                                <li>企業官方網站改版</li>
+                                                <li>部門後台系統提案</li>
+                                            </ol>
+                                        </li>
+                                        <li>
+                                            <h4 class="company"><span><i class="fa-solid fa-briefcase"></i></span>蘋果世界有限公司</h4>
+                                            <h5>2015-2019 前端工程師</h5>
+                                            <ol>
+                                                <li>形象網站:包含多語系網站</li>
+                                                <li>電子商務B2C網站</li>
+                                                <li>線上簽約系統</li>
+                                                <li>套版網站版型製作</li>
+                                                <li>結案維護及續約改版</li>
+                                            </ol>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="indside second">
+                                    
+                                    <ul>
+                                                           <li><h3>Skills</h3><div class="pie">
+                                            <img src="NBcharts-PIE.png" alt="">
+                                        </div></li>
+                                        <li>
+                                            <h3>Tools</h3>
+                                            <div class="">
+                                                <img src="Frame1.png" alt="">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bbox">
+                                
+                                <div class="indside">
+                                    <h3>Education</h3>
+                                    <ul>
+                                        <li>
+                                            <h4 class="company"><span><i class="fa-solid fa-graduation-cap"></i></span>私立崑山科技大學</h4>
+                                            <h5>房地產與開發管理系</h5>
+                                            <ol>
+                                                <li>2011/09-2014/06</li>
+                                            </ol>
+                                        </li>
+                                        <li>
+                                            <h4 class="company"><span><i class="fa-solid fa-school-flag"></i></span>國立勤益科技大學</h4>
+                                            <h5>景觀設計學系</h5>
+                                            <ol>
+                                                <li>2010/09-2011/06</li>
+                                            </ol>
+                                        </li>
+                                        <li>
+                                            <h4 class="company"><span><i class="fa-solid fa-graduation-cap"></i></span>國立臺南大學附屬高級中學</h4>
+                                            <h5>營建科</h5>
+                                            <ol>
+                                                <li>2008/09-2010/06</li>
+                                            </ol>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="indside">
+                                    <h3>TOEIC</h3>
+                                    <ul>
+                                        <li>
+                                            <ol>
+                                                <li>2020/09</li>
+                                                <li>
+                                                    745
+                                                </li>
+                                            </ol>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="indside lear">
+                                    <h3>The Process of Learning</h3>
+                                    <ul>
+                                        <li>
+                                            <ol>
+                                                <li>2022/03</li>
+                                                <li>
+                                                    用戶經驗設計UX方法與介面設計UI實物培訓班
+                                                </li>
+                                            </ol>
+                                            <ol>
+                                                <li>2020/11-2021/09</li>
+                                                <li>
+                                                    壁球課
+                                                </li>
+                                            </ol>
+                                            <ol>
+                                                <li>
+                                                    2020/12
+                                                </li>
+                                                <li>
+                                                    軟體需求塑模與需求規格文件撰寫實務班
+                                                </li>
+                                            </ol>
+                                            <ol>
+                                                <li>
+                                                    2020/11
+                                                </li>
+                                                <li>
+                                                    軟體需求與系統分析實務班
+                                                </li>
+                                            </ol>
+                                            <ol>
+                                                <li>2019/11</li>
+                                                <li>高齡寵物照護課程</li>
+                                            </ol>
+                                            <ol>
+                                                <li>2019/05-2019/09</li>
+                                                <li>跨平台網頁程式設計班</li>
+                                            </ol>
+                                            <ol>
+                                                <li>
+                                                    2014/09-2015/04
+                                                </li>
+                                                <li>網頁設計師訓練班</li>
+                                            </ol>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </template>
+    <template id="thisisUXUI">
+        <div>
+            <div class="midwidth">
+                <ol class="bookmark">
+                    <li><p class="goTo1">主題探索</p></li>
+                    <li><p class="goTo2">前期研究</p></li>
+                    <li><p class="goTo3">概念提取</p></li>
+                    <li><p class="goTo4">設計階段</p></li>
+                </ol>
+    
+                <div class="ahrefstep1"><img src="uxui/1.png" alt=""></div>
+                <div><img src="uxui/2.png" alt=""></div>
+                <div><img src="uxui/3.png" alt=""></div>
+                <div class="ahrefstep2"><img src="uxui/4.png" alt=""></div>
+                <div><img src="uxui/5.png" alt=""></div>
+                <div><img src="uxui/6.png" alt=""></div>
+                <div><img src="uxui/7.png" alt=""></div>
+                <div><img src="uxui/8.png" alt=""></div>
+                <div class="ahrefstep3"><img src="uxui/9.png" alt=""></div>
+                <div><img src="uxui/10.png" alt=""></div>
+                <div><img src="uxui/11.png" alt=""></div>
+                <div><img src="uxui/12.png" alt=""></div>
+                <div class="ahrefstep4"><img src="uxui/13.png" alt=""></div>
+                <div><img src="uxui/14.png" alt=""></div>
+                <div><img src="uxui/15.png" alt=""></div>
+                <div class="gifbox"><img src="uxui/16.png" alt="">
+                    <span id="opendd"><i class="fa-solid fa-circle-play"></i></span>
+                    <b class="closegifplay"><i class="fa-solid fa-xmark"></i></b>
+                    <div class="gifplay">
+                    </div>
+                </div>
+                <div><img src="uxui/17.png" alt=""></div>
+                <div><img src="uxui/18.png" alt=""></div>
+                <div><img src="uxui/19.png" alt=""></div>
+                <div><img src="uxui/20.png" alt=""></div>
+            </div>
+        </div>
+    </template>
+    <template id="thisisWeb">
+        <div>
+            <div class="midwidth">
+                <div class="worklist">
+                    <div class="boz">
+                        <div class="cover">
+                            <img src="web/4.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>
+                                <b>燦坤新服務性商品活動頁</b>
+                            </h3>
+                            <p class="incharge">
+                                <span><i class="fa-solid fa-briefcase"></i></span> Front-end design
+                            </p>
+                            <p class="date">
+                                <span><i class="fa-solid fa-calendar-day"></i></span> 2022/03
+                            </p>
+                            <p class="link">
+                                <a href="https://events.tk3c.com/events_net/events_net/bobeecare_2022/index2.html" target="_blank"><i class="fa-solid fa-link"></i> 前往頁面</a>
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <div class="boz">
+                        <div class="cover">
+                            <img src="web/1.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>
+                                <b>燦坤門市檔期活動頁</b>
+                            </h3>
+                            <p class="incharge">
+                                <span><i class="fa-solid fa-briefcase"></i></span> Front-end design
+                            </p>
+                            <p class="date">
+                                <span><i class="fa-solid fa-calendar-day"></i></span> 2022/01
+                            </p>
+                            <p class="link">
+                                <a href="https://events.tk3c.com/events_net/events_net/tk3cvip_202201/index-pre.html" target="_blank"><i class="fa-solid fa-link"></i> 前往頁面</a>
+                            </p>
+    
+    
+                        </div>
+                    </div>
+                    <div class="boz">
+                        <div class="cover">
+                            <img src="web/2.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>
+                                <b>燦坤電商檔期活動頁</b>
+                            </h3>
+                            <p class="incharge">
+                                <span><i class="fa-solid fa-briefcase"></i></span> Front-end design
+                            </p>
+                            <p class="date">
+                                <span><i class="fa-solid fa-calendar-day"></i></span> 2020/01
+                            </p>
+                            <p class="link">
+                                <a href="https://events.tk3c.com/events_net/events_net/202001tk3c_vip/" target="_blank"><i class="fa-solid fa-link"></i> 前往頁面</a>
+                            </p>
+    
+                        </div>
+                    </div>
+                    <div class="boz">
+                        <div class="cover">
+                            <img src="web/3.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>
+                                <b>成功大學醫學院附設醫院小兒部</b>
+                            </h3>
+                            <p class="incharge">
+                                <span><i class="fa-solid fa-briefcase"></i></span> Front-end design
+                            </p>
+                            <p class="date">
+                                <span><i class="fa-solid fa-calendar-day"></i></span> 2017/07-2017/10
+                            </p>
+                            <p class="link">
+                                <a href="https://xn--f5qt4q1pcv5i2k7ax53ao5g.i-web.com.tw/" target="_blank"><i class="fa-solid fa-link"></i> 前往網站</a>
+                            </p>
+    
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </template>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.0.1/vue-router.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="fixedTopBar.js"></script> 
+</body>
+
+</html>
