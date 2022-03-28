@@ -5,11 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name=”format-detection” content=”telephone=no”>
+    <meta name="format-detection" content="telephone=no">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/2c6dd29bd1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="vue-layout-index.css">
     <title>吳孟蘋-Resume</title>
+    <script>
+        document.oncontextmenu = new Function("return false");
+        oncontextmenu="return false;"
+
+ 
+        /*JavaScript 部分，需引用 jQuery*/
+        function copyToClipboard(elementId) {
+        var aux = document.createElement("input");
+        aux.setAttribute("value", document.getElementById(elementId).innerHTML);
+        document.body.appendChild(aux);
+        aux.select();
+        document.execCommand("copy");
+        document.body.removeChild(aux);
+        }
+        $(document).ready(function(){
+            $(window).keyup(function(e){
+            if(e.keyCode == 44){
+                copyToClipboard('sidepj');  // 輸入想要隱藏的id      
+                $("body").hide();
+            };
+            
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -204,7 +228,7 @@
     </template>
     <template id="thisisUXUI">
         <div>
-            <div class="midwidth">
+            <div class="midwidth" id="sidepj">
                 <ol class="bookmark">
                     <li><p class="goTo1">主題探索</p></li>
                     <li><p class="goTo2">前期研究</p></li>
