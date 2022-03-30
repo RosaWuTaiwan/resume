@@ -560,6 +560,7 @@ img {
 .worklist .boz .info{
     margin: 0 5px 10px;
 }
+.worklist .boz .info h3{height: 2.5em;}
 .mainCover p{
     width: 120px;
     height: 120px;
