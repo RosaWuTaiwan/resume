@@ -43,6 +43,11 @@ h1{text-align:center;position:relative;position:absolute;top:0;left:0;height:100
 .works section:nth-child(2) .centerWidth .left{order:2}
 .works section .slick-prev{left:25px;z-index:2;transform:scale(1.5);top:calc(50% - 30px);filter:drop-shadow(2px 4px 6px #000)}
 .works section .slick-next{right:25px;z-index:2;top:calc(50% - 30px);transform:scale(1.5);filter:drop-shadow(2px 4px 6px #000)}
+.uiuxframe{display:none}
+.uiuxframe.open{display:block;position:fixed;top:0;left:0;width:100%;height:100%;background:#000;z-index:9}
+.uiuxframe .border{margin:15vh 25vh;position:relative}
+.uiuxframe .border .insdieborder{max-height:70vh;overflow:auto;position:relative}
+.uiuxframe .close{position:absolute;top:-15px;right:-15px;background:#fff;width:30px;height:30px;border-radius:50%;z-index:99;color:#000;text-align:center;line-height:30px;filter:drop-shadow(2px 2px 6px #000)}
 @media screen and (max-width:1366px){
 .centerWidth{width:90%}
 }
@@ -61,4 +66,6 @@ h1{display:flex;flex-wrap:nowrap;align-items:center}
 .works section:nth-child(2){background:#000}
 .works section .centerWidth .right .box p a{font-size:14px!important}
 .works section .centerWidth .right .box p a:after{font-size:12px}
+.uiuxframe .border{margin:10vh 50px}
+.uiuxframe .border .insdieborder{max-height:80vh}
 }
