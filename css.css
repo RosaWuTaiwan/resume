@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;400;700&display=swap);
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,i,img,input,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,textarea,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;font-weight:400;vertical-align:baseline;font-family:"Noto Sans TC","Lucida Grande",Arial,"Arial Narrow";font-size:18px;line-height:180%}
+html{margin:0;padding:0;border:0;font-size:100%;font:inherit;font-weight:400;vertical-align:baseline;font-family:"Noto Sans TC","Lucida Grande",Arial,"Arial Narrow";font-size:87px}
+body{position:relative;color:#fff;background:#0d0d0d}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+li,ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+td,th{vertical-align:middle}
+a{outline:0;color:#000;text-decoration:none;-webkit-backface-visibility:hidden}
+a:focus{outline:0}
+input:focus,select:focus,textarea:focus{outline:-webkit-focus-ring-color auto 0}
+img{max-width:100%;display:block}
+.centerWidth{width:1200px;margin:0 auto}
+.top{position:relative}
+h1{text-align:center;position:relative;position:absolute;top:0;left:0;height:100%;width:100%}
+.top h1 svg{width:90%;margin:0 auto;overflow:visible;transform:skew(10deg,10deg);transform-origin:0 50%}
+.top h1 path{stroke-width:1px;stroke:#ffffff12;fill:rgba(0,0,0,0);animation:lineMove2 8s ease-out infinite}
+@keyframes lineMove2{
+0%{stroke-dasharray:0,32}
+20%{stroke-dasharray:0,32}
+40%{stroke-dasharray:32,32;fill:rgb(72 72 72 / 0%);opacity:1}
+60%{stroke-dasharray:32,32;fill:rgb(48 48 48 / 0%);opacity:0}
+80%{stroke-dasharray:32,32;fill:rgb(48 48 48 / 0%);opacity:1}
+100%{stroke-dasharray:32,32;fill:rgb(48 48 48 / 0%);opacity:0}
+}
+.top h2{text-align:center;font-size:40px;padding:150px 0;font-weight:700}
+.top h2 span{font-size:12px;display:block;text-align:center;font-weight:lighter}
+.works section{padding:50px 0}
+.works section .centerWidth{display:flex;flex-wrap:nowrap;justify-content:space-between;align-items:center}
+.works section .centerWidth .left{width:30%}
+.works section .centerWidth .right{width:67%}
+.works section .centerWidth .left h2{font-family:Overpass,sans-serif;font-size:2.5em;line-height:110%}
+.works section .centerWidth .left h2 span{display:block;font-size:.35em;font-family:"Noto Sans TC"}
+.works section .centerWidth .left h3{color:#747474;font-size:.8em;margin-top:30px;font-weight:400}
+.works section .centerWidth .right .box p a{display:block;color:#fff;padding:10px;transition:all .2s linear;position:relative}
+.works section .centerWidth .right .box p a:after{content:'visit';display:inline-block;font-size:14px;background:#e1e1e1e3;border-radius:20px;padding:3px 15px;color:#000;line-height:100%;transition:all .2s linear;margin-left:15px;vertical-align:middle}
+.works section .centerWidth .right .box p a:hover:after{background:#c1e1da}
+.works section .centerWidth .right .box p span{font-size:14px;color:#ffffffb5;display:block}
+.works section:nth-child(2) .centerWidth .right{order:1}
+.works section:nth-child(2) .centerWidth .left{order:2}
+.works section .slick-prev{left:25px;z-index:2;transform:scale(1.5);top:calc(50% - 30px);filter:drop-shadow(2px 4px 6px #000)}
+.works section .slick-next{right:25px;z-index:2;top:calc(50% - 30px);transform:scale(1.5);filter:drop-shadow(2px 4px 6px #000)}
+@media screen and (max-width:1366px){
+.centerWidth{width:90%}
+}
+@media screen and (max-width:768px){
+.centerWidth{width:calc(100% - 20px)}
+.works section .centerWidth{display:block}
+.works section .centerWidth .left{width:100%}
+.works section .centerWidth .right{width:100%}
+.works section .centerWidth .left h3{margin-top:0;margin-bottom:20px;text-align:center}
+.works section .centerWidth .left h2{text-align:center}
+.top h2{font-size:30px;padding:100px 0}
+.works{background:#ffffff1a}
+h1{display:flex;flex-wrap:nowrap;align-items:center}
+.top h1 svg{transform-origin:50%}
+.top h2 span{font-size:.3em}
+}
