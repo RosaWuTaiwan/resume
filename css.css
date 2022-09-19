@@ -58,4 +58,9 @@ h1{text-align:center;position:relative;position:absolute;top:0;left:0;height:100
 h1{display:flex;flex-wrap:nowrap;align-items:center}
 .top h1 svg{transform-origin:50%}
 .top h2 span{font-size:.3em}
+.works section:nth-child(2){
+    background: #000;
+}
+.works section .centerWidth .right .box p a{font-size: 14px;}
+.works section .centerWidth .right .box p a:after{font-size: 12px;}
 }
