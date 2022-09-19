@@ -52,15 +52,13 @@ h1{text-align:center;position:relative;position:absolute;top:0;left:0;height:100
 .works section .centerWidth .left{width:100%}
 .works section .centerWidth .right{width:100%}
 .works section .centerWidth .left h3{margin-top:0;margin-bottom:20px;text-align:center}
-.works section .centerWidth .left h2{text-align:center}
+.works section .centerWidth .left h2{text-align:center;font-size:2.2em}
 .top h2{font-size:30px;padding:100px 0}
 .works{background:#ffffff1a}
 h1{display:flex;flex-wrap:nowrap;align-items:center}
 .top h1 svg{transform-origin:50%}
 .top h2 span{font-size:.3em}
-.works section:nth-child(2){
-    background: #000;
-}
-.works section .centerWidth .right .box p a{font-size: 14px;}
-.works section .centerWidth .right .box p a:after{font-size: 12px;}
+.works section:nth-child(2){background:#000}
+.works section .centerWidth .right .box p a{font-size:14px!important}
+.works section .centerWidth .right .box p a:after{font-size:12px}
 }
