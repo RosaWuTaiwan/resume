@@ -64,7 +64,7 @@ h1{display:flex;flex-wrap:nowrap;align-items:center}
 .top h1 svg{transform-origin:50%}
 .top h2 span{font-size:.3em}
 .works section:nth-child(2){background:#000}
-.works section .centerWidth .right .box p a{font-size:14px!important}
+.works section .centerWidth .right .box p a,.works section:nth-child(2) .centerWidth .right .box p a{font-size:14px!important}
 .works section .centerWidth .right .box p a:after{font-size:12px}
 .uiuxframe .border{margin:10vh 50px}
 .uiuxframe .border .insdieborder{max-height:80vh}
