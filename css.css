@@ -68,4 +68,5 @@ h1{display:flex;flex-wrap:nowrap;align-items:center}
 .works section .centerWidth .right .box p a:after{font-size:12px}
 .uiuxframe .border{margin:10vh 50px}
 .uiuxframe .border .insdieborder{max-height:80vh}
+.works section .centerWidth .right .box p a:after{margin-left:0;display:block;text-align:center;margin-top:10px;padding: 5px 0;}
 }
