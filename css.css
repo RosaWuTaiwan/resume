@@ -32,17 +32,19 @@ h1{text-align:center;position:relative;position:absolute;top:0;left:0;height:100
 .works section .centerWidth{display:flex;flex-wrap:nowrap;justify-content:space-between;align-items:center}
 .works section .centerWidth .left{width:30%}
 .works section .centerWidth .right{width:67%}
-.works section .centerWidth .left h2{font-family:Overpass,sans-serif;font-size:2.5em;line-height:110%}
+.works section .centerWidth .left h2{font-family:Overpass,sans-serif;font-size:2.3em;line-height:110%}
 .works section .centerWidth .left h2 span{display:block;font-size:.35em;font-family:"Noto Sans TC"}
 .works section .centerWidth .left h3{color:#747474;font-size:.8em;margin-top:30px;font-weight:400}
-.works section .centerWidth .right .box p a{display:block;color:#fff;padding:10px;transition:all .2s linear;position:relative}
-.works section .centerWidth .right .box p a:after{content:'visit';display:inline-block;font-size:14px;background:#e1e1e1e3;border-radius:20px;padding:3px 15px;color:#000;line-height:100%;transition:all .2s linear;margin-left:15px;vertical-align:middle}
+.works section .centerWidth .right .box p a{display:block;color:#fff;padding:10px;transition:all .2s linear;position:relative;font-size:20px}
+.works section .centerWidth .right .box p a:after{text-align:center;content:'visit';display:block;background:#e1e1e1e3;border-radius:10px;color:#000;line-height:100%;transition:all .2s linear;vertical-align:middle;padding:10px;width:100px;font-size:15px;margin-top:10px}
 .works section .centerWidth .right .box p a:hover:after{background:#c1e1da}
 .works section .centerWidth .right .box p span{font-size:14px;color:#ffffffb5;display:block}
 .works section:nth-child(2) .centerWidth .right{order:1}
 .works section:nth-child(2) .centerWidth .left{order:2}
 .works section .slick-prev{left:25px;z-index:2;transform:scale(1.5);top:calc(50% - 30px);filter:drop-shadow(2px 4px 6px #000)}
 .works section .slick-next{right:25px;z-index:2;top:calc(50% - 30px);transform:scale(1.5);filter:drop-shadow(2px 4px 6px #000)}
+.bottom .inside{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:flex-start}
+.bottom .inside>div{width:calc(50% - 10px);margin:0 5px}
 .uiuxframe{display:none}
 .uiuxframe.open{display:block;position:fixed;top:0;left:0;width:100%;height:100%;background:#000;z-index:9}
 .uiuxframe .border{margin:15vh 25vh;position:relative}
@@ -64,9 +66,6 @@ h1{display:flex;flex-wrap:nowrap;align-items:center}
 .top h1 svg{transform-origin:50%}
 .top h2 span{font-size:.3em}
 .works section:nth-child(2){background:#000}
-.works section .centerWidth .right .box p a,.works section:nth-child(2) .centerWidth .right .box p a{font-size:14px!important}
-.works section .centerWidth .right .box p a:after{font-size:12px}
 .uiuxframe .border{margin:10vh 50px}
 .uiuxframe .border .insdieborder{max-height:80vh}
-.works section .centerWidth .right .box p a:after{margin-left:0;display:block;text-align:center;margin-top:10px;padding: 5px 0;}
 }
