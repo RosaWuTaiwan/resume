@@ -35,7 +35,7 @@ h1{text-align:center;position:relative;position:absolute;top:0;left:0;height:100
 .works section .centerWidth .left h2{font-family:Overpass,sans-serif;font-size:2.3em;line-height:110%}
 .works section .centerWidth .left h2 span{display:block;font-size:.35em;font-family:"Noto Sans TC"}
 .works section .centerWidth .left h3{color:#747474;font-size:.8em;margin-top:30px;font-weight:400}
-.works section .centerWidth .right .box p a{display:block;color:#fff;padding:10px;transition:all .2s linear;position:relative;font-size:20px;    line-height: 125%;}
+.works section .centerWidth .right .box p a{display:block;color:#fff;padding:10px;transition:all .2s linear;position:relative;font-size:18px !important;    line-height: 125%;}
 .works section .centerWidth .right .box p a:after{text-align:center;content:'visit';display:block;background:#e1e1e1e3;border-radius:10px;color:#000;line-height:100%;transition:all .2s linear;vertical-align:middle;padding:10px;width:100px;font-size:15px;margin-top:10px}
 .works section .centerWidth .right .box p a:hover:after{background:#c1e1da}
 .works section .centerWidth .right .box p span{font-size:14px;color:#ffffffb5;display:block;line-height: 130%;margin-top: 10px;}
